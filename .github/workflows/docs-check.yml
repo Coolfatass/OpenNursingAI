@@ -1,0 +1,27 @@
+name: Documentation check
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  required-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required public-project files
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in README.md LICENSE CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md GOVERNANCE.md ROADMAP.md DISCLAIMER.md; do
+            test -s "$file"
+          done
+          test -s docs/clinical-safety.md
+          test -s docs/data-governance.md
+          if grep -RInE '(sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,}|AKIA[0-9A-Z]{16})' --exclude-dir=.git .; then
+            echo 'Potential credential found; review the files above.'
+            exit 1
+          fi
