@@ -6,7 +6,7 @@ Open-source collaboration for safe, human-reviewed AI tools that reduce repetiti
 
 ## Project
 
-OpenNursingAI is a public-interest, open collaboration project for nurses, clinicians, nursing researchers, AI and software engineers, health informatics professionals, security, ethics, and legal specialists.
+OpenNursingAI is a public-interest, open collaboration project proposed and co-developed by the project lead. It brings together nurses, clinicians, nursing researchers, AI and software engineers, health informatics professionals, security, ethics, and legal specialists.
 
 The planned first MVP is a nursing handoff assistant that uses synthetic or lawfully de-identified data to organize handoff information into an editable SBAR draft while preserving human review, editing, and traceability.
 
@@ -34,13 +34,12 @@ Do not submit patient names, admission numbers, identity numbers, medical record
 3. Use Discussions for project direction, ethics boundaries, and evaluation methods when enabled.
 4. Submit documentation or code through Pull Requests with data source, test method, and safety impact.
 
-## Maintainer and contact
+## Maintainer, contact, and open roles
 
-- Maintainer: [@Coolfatass](https://github.com/Coolfatass)
-- Project email: to be added when a dedicated project mailbox is established
+- Project lead and co-developer: [@Coolfatass](https://github.com/Coolfatass)
+- Project email: [874529785hy@gmail.com](mailto:874529785hy@gmail.com)
+- Current recruitment needs: nursing professionals, technical contributors, and security reviewers
 - Security: follow [SECURITY.md](SECURITY.md); do not publish sensitive details in public Issues
-
-Until a dedicated project mailbox is available, use the maintainer profile for general contact. Private security reporting will be the preferred channel once enabled.
 
 ## Documentation
 
