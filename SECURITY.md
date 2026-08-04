@@ -6,7 +6,7 @@
 
 ## 报告方式
 
-请不要在公开 Issue、Discussion 或 Pull Request 中披露漏洞利用步骤、个人信息、内部系统细节、API 密钥或其他敏感内容。项目维护者为 [@Coolfatass](https://github.com/Coolfatass)。GitHub 私密安全报告渠道启用后，请优先使用该渠道；在启用前，请通过维护者页面发起不含敏感细节的私下联系。项目专用安全邮箱待确定，确定后会在此文件更新。
+请不要在公开 Issue、Discussion 或 Pull Request 中披露漏洞利用步骤、个人信息、内部系统细节、API 密钥或其他敏感内容。项目负责人及共同参与开发者为 [@Coolfatass](https://github.com/Coolfatass)，项目联系邮箱为 [874529785hy@gmail.com](mailto:874529785hy@gmail.com)。GitHub 私密安全报告渠道启用后，请优先使用该渠道；在启用前，可通过上述邮箱发送不含敏感细节的私下报告。
 
 安全报告应尽量包含受影响文件或版本、影响范围、最小复现步骤、风险判断和建议修复方式。请勿上传患者数据、真实凭证或可直接利用的敏感细节。
 
