@@ -2,48 +2,57 @@
 
 Open-source collaboration for safe, human-reviewed AI tools that reduce repetitive nursing work.
 
-> **研究原型：不用于临床决策。** OpenNursingAI 当前处于早期研究和原型阶段，任何 AI 输出都必须由合格的护理专业人员独立审核。
+> **Documentation baseline: no runnable MVP and not for clinical decision-making.** OpenNursingAI is currently in the governance, needs-research, and prototype-planning stage. The repository does not yet contain a runnable MVP. Any future AI output must be independently reviewed by qualified nursing professionals.
 
-## 项目简介
+## Project
 
-OpenNursingAI 是一个公益导向、开放协作的护理人工智能项目，面向护理人员、临床医生、护理研究者、AI 与软件工程师、医疗信息化、安全、伦理和法律专业人员。
+OpenNursingAI is a public-interest, open collaboration project for nurses, clinicians, nursing researchers, AI and software engineers, health informatics professionals, security, ethics, and legal specialists.
 
-首个 MVP 是“护理交班智能助手”：使用模拟或经合法匿名化的数据，将杂乱的护理信息整理为结构化的 SBAR 交班草稿，帮助护理人员节省信息整理时间，同时保留人工审核、编辑和追溯环节。
+The planned first MVP is a nursing handoff assistant that uses synthetic or lawfully de-identified data to organize handoff information into an editable SBAR draft while preserving human review, editing, and traceability.
 
-## 当前状态
+## Current status
 
-- 阶段：研究与原型设计（v0.1.0）
-- 数据：仅使用模拟数据或经授权的合法匿名化数据
-- 临床验证：尚未完成
-- 真实部署：不支持
-- 主要输出：供人工审核的 SBAR 草稿，不是诊断、处方、医嘱或自动临床决策
+- Stage: Documentation Baseline
+- Contents: governance, research planning, and collaboration documents only
+- Runnable MVP: not yet available
+- Data: synthetic data by default; lawful de-identified data only when properly authorized
+- Clinical validation: not completed
+- Clinical deployment: not supported
 
-## 明确不做
+## Explicitly out of scope
 
-当前版本不连接真实 HIS、EMR 或医院业务系统，不自动生成医嘱，不自动诊断，不自动发送临床警报，不自动执行护理任务，也不替代护理人员的专业判断。
+The current project does not connect to real HIS, EMR, or hospital systems; diagnose; prescribe; generate medical orders; change treatment plans; send clinical alerts; execute nursing tasks; or replace professional judgment.
 
-## 安全与隐私红线
+## Safety and privacy
 
-请勿提交患者姓名、住院号、身份证号、病历、照片、联系方式、医院内部文件、账号、密码、API 密钥或任何未经授权的医疗数据。安全问题请按照 [SECURITY.md](SECURITY.md) 报告，不要公开发布敏感细节。
+Do not submit patient names, admission numbers, identity numbers, medical records, photographs, contact details, internal hospital files, accounts, passwords, API keys, or any unauthorized health data. Read [SECURITY.md](SECURITY.md) before reporting a security concern.
 
-## 如何参与
+## Participate
 
-1. 阅读 [贡献指南](CONTRIBUTING.md)、[临床安全边界](docs/clinical-safety.md) 和 [数据治理](docs/data-governance.md)。
-2. 使用 Issue 提交护理场景、功能建议或问题；不要包含患者资料。
-3. 使用 Discussions 讨论需求、伦理边界和评价方法。
-4. 通过 Pull Request 提交文档或代码变更，并说明数据来源、测试方式和安全影响。
+1. Read [CONTRIBUTING.md](CONTRIBUTING.md), [clinical safety](docs/clinical-safety.md), and [data governance](docs/data-governance.md).
+2. Use Issues for nursing scenarios, feature proposals, or problems without patient information.
+3. Use Discussions for project direction, ethics boundaries, and evaluation methods when enabled.
+4. Submit documentation or code through Pull Requests with data source, test method, and safety impact.
 
-## 文档
+## Maintainer and contact
 
-- [项目概览](docs/project-overview.md)
-- [MVP 范围](docs/mvp-scope.md)
-- [临床安全边界](docs/clinical-safety.md)
-- [数据治理](docs/data-governance.md)
-- [评价方案](docs/evaluation-plan.md)
-- [路线图](ROADMAP.md)
-- [治理机制](GOVERNANCE.md)
-- [免责声明](DISCLAIMER.md)
+- Maintainer: [@Coolfatass](https://github.com/Coolfatass)
+- Project email: to be added when a dedicated project mailbox is established
+- Security: follow [SECURITY.md](SECURITY.md); do not publish sensitive details in public Issues
 
-## 许可证
+Until a dedicated project mailbox is available, use the maintainer profile for general contact. Private security reporting will be the preferred channel once enabled.
 
-除非另有说明，本项目代码采用 Apache-2.0 许可证，文档内容也按项目贡献规则开放协作。许可证不代表本项目已经获得医疗器械、临床或监管批准。
+## Documentation
+
+- [Project overview](docs/project-overview.md)
+- [MVP scope](docs/mvp-scope.md)
+- [Clinical safety](docs/clinical-safety.md)
+- [Data governance](docs/data-governance.md)
+- [Evaluation plan](docs/evaluation-plan.md)
+- [Roadmap](ROADMAP.md)
+- [Governance](GOVERNANCE.md)
+- [Disclaimer](DISCLAIMER.md)
+
+## License
+
+Unless otherwise stated, code is licensed under Apache-2.0. The license does not indicate medical-device, clinical, or regulatory approval.
