@@ -4,6 +4,14 @@
 
 当前仓库是 Documentation Baseline（文档基线），尚未包含可运行 MVP。现阶段贡献以需求研究、治理文件、模拟案例设计和评价方案为主。
 
+项目负责人及共同参与开发者为 [@Coolfatass](https://github.com/Coolfatass)，项目联系邮箱为 [874529785hy@gmail.com](mailto:874529785hy@gmail.com)。
+
+## 当前招募角色
+
+- 护理专业人员：提供护理流程、术语、交班场景和临床安全审核；
+- 技术贡献者：参与架构、前后端、AI 接口、测试和文档自动化；
+- 安全审核人员：参与隐私、数据安全、威胁建模和安全事件流程。
+
 ## 先阅读
 
 - [临床安全边界](docs/clinical-safety.md)
