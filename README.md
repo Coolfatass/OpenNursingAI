@@ -8,14 +8,28 @@ Open-source collaboration for safe, human-reviewed AI tools that reduce repetiti
 
 OpenNursingAI is a public-interest, open collaboration project proposed and co-developed by the project lead. It brings together nurses, clinicians, nursing researchers, AI and software engineers, health informatics professionals, security, ethics, and legal specialists.
 
-The planned first MVP is a nursing handoff assistant that uses synthetic or lawfully de-identified data to organize handoff information into an editable SBAR draft while preserving human review, editing, and traceability.
+The long-term vision is to support nursing work across global and Chinese hospital settings, including:
+
+- intelligent health-education content based on a hospital-approved knowledge base;
+- nursing-document drafting;
+- nursing handoff and SBAR assistance;
+- nursing-task reminders;
+- nursing rounds and difficult-case discussion drafting;
+- risk-assessment assistance;
+- vital-sign warning support;
+- medication-safety assistance;
+- line, tube, and device-management support;
+- nursing quality-management support.
+
+These are a staged product vision, not current capabilities or claims of clinical readiness. The first MVP remains a narrow, synthetic-data nursing handoff assistant with editable SBAR output, human review, and traceability.
 
 ## Current status
 
 - Stage: Documentation Baseline
 - Contents: governance, research planning, and collaboration documents only
 - Runnable MVP: not yet available
-- Data: synthetic data by default; lawful de-identified data only when properly authorized
+- Current input: manually entered synthetic handoff information
+- Future hospital input: only after lawful authorization, security assessment, institutional approval, and validated integration
 - Clinical validation: not completed
 - Clinical deployment: not supported
 
