@@ -1,0 +1,9 @@
+# Default owner for all repository changes.
+* @Coolfatass
+
+# Clinical and safety documents require maintainer review.
+/docs/clinical-safety.md @Coolfatass
+/docs/data-governance.md @Coolfatass
+/docs/evaluation-plan.md @Coolfatass
+SECURITY.md @Coolfatass
+DISCLAIMER.md @Coolfatass
