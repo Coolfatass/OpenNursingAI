@@ -4,6 +4,18 @@
 
 患者安全、隐私和可追溯性优先于功能速度；护理专业需求优先于“为了使用 AI 而使用 AI”；在证据不足时采用更保守的范围。
 
+## 项目负责人
+
+项目负责人是本项目提出人及共同参与开发者 [@Coolfatass](https://github.com/Coolfatass)，项目联系邮箱为 [874529785hy@gmail.com](mailto:874529785hy@gmail.com)。
+
+## 当前招募岗位
+
+- Clinical Maintainer：负责护理流程、术语和临床安全边界；
+- Technical Maintainer：负责技术架构、实现、测试和发布；
+- Security Reviewer：负责隐私、数据安全、威胁建模和安全事件审核。
+
+上述岗位目前开放招募。在相关岗位尚未确认前，项目不应发布真实医疗数据功能或临床高风险功能。
+
 ## 角色
 
 - Contributor：完成一次有效贡献；
